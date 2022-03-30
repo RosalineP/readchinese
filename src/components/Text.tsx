@@ -64,7 +64,7 @@ interface Props {
 export const Text: FC<Props> = memo(({ text }) => {
     const [showHelp, setShowHelp] = useState<boolean>(false);
     const { name, quizlet, lines } = text;
-    const LIMIT = 25;
+    const LIMIT = 32;
 
     return (
         <div className="text">

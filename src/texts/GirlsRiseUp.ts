@@ -19,7 +19,7 @@ export const girlsRiseUp = {
         ],
         [
             '看你说的情话哭得眼泪哗啦啦',
-            'kàn nǐ shuō de qíng huà kū dé yǎn lèi huālā la',
+            'kàn nǐ shuō de qíng huà kū dé yǎn lèi huā lā la',
             'i cried when i saw what you said',
         ],
         ['', '', ''],
@@ -34,7 +34,7 @@ export const girlsRiseUp = {
             'and one loves the sisters to jump out',
         ],
         ['可爱甜言蜜语把他骗过来', 'kě ài tián yán mì yǔ bǎ tā piàn guò lái', 'cute sweet words tricked him'],
-        ['好好爱 不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
+        ['好好爱不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
         [
             '十个男人七个傻傻呆呆九个坏',
             'shí gè nán rén qī gè shǎ shǎ dāi dāi jiǔ gè huài',
@@ -46,7 +46,7 @@ export const girlsRiseUp = {
             'and one loves the sisters to jump out',
         ],
         ['可爱甜言蜜语把他骗过来', "kě ài tián yán mì yǔ bǎ tā piàn guò lái", 'cute sweet words tricked him'],
-        ['好好爱 不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
+        ['好好爱不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
         ['', '', ''],
         [
             '找个人恋爱吧不让你来告诉你呀',
@@ -80,7 +80,7 @@ export const girlsRiseUp = {
             'and one loves the sisters to jump out',
         ],
         ['可爱甜言蜜语把他骗过来', 'kě ài tián yán mì yǔ bǎ tā piàn guò lái', 'cute sweet words tricked him'],
-        ['好好爱 不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
+        ['好好爱不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
         [
             '十个男人七个傻傻呆呆九个坏',
             'shí gè nán rén qī gè shǎ shǎ dāi dāi jiǔ gè huài',
@@ -92,7 +92,7 @@ export const girlsRiseUp = {
             'and one loves the sisters to jump out',
         ],
         ['可爱甜言蜜语把他骗过来', "kě ài tián yán mì yǔ bǎ tā piàn guò lái", 'cute sweet words tricked him'],
-        ['好好爱 不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
+        ['好好爱不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
         ['', '', ''],
         [
             '十个男人七个傻傻呆呆九个坏',
@@ -105,7 +105,7 @@ export const girlsRiseUp = {
             'and one loves the sisters to jump out',
         ],
         ['可爱甜言蜜语把他骗过来', 'kě ài tián yán mì yǔ bǎ tā piàn guò lái', 'cute sweet words tricked him'],
-        ['好好爱 不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
+        ['好好爱不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
         [
             '十个男人七个傻傻呆呆九个坏',
             'shí gè nán rén qī gè shǎ shǎ dāi dāi jiǔ gè huài',
@@ -117,7 +117,7 @@ export const girlsRiseUp = {
             'and one loves the sisters to jump out',
         ],
         ['可爱甜言蜜语把他骗过来', "kě ài tián yán mì yǔ bǎ tā piàn guò lái", 'cute sweet words tricked him'],
-        ['好好爱 不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
+        ['好好爱不再让他离开', 'hǎo hǎo ài bù zài ràng tā lí kāi', "love well, don't let him go"],
         ['', '', ''],
         [
             '把他骗过来好好爱不再让他离开',
