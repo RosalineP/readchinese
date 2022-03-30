@@ -1,0 +1,95 @@
+.text {
+    flex-grow: 2;
+}
+
+/* --------------------------------------- */
+/* Header
+/* --------------------------------------- */
+
+.titleHeader {
+    margin: 2em 3em 0 3em;
+    border-bottom: 5px solid var(--lightBlue);
+    display: flex;
+}
+
+.titleHeader__title {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.2em;
+}
+
+.titleHeader__icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+.titleHeader__icons__lang {
+    margin-right: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+.titleHeader__icons__lang--on {
+    color: var(--lightBlue);
+}
+
+.titleHeader__icons__lang--off {
+    color: var(--grey);
+}
+
+.titleHeader__icon__cards {
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.titleHeader__icon__cards__link {
+    color: var(--lightBlue);
+}
+
+/* --------------------------------------- */
+/* Body
+/* --------------------------------------- */
+
+.text__body {
+    margin: 1em 3em 0 3em;
+}
+
+.text__body__triad {
+    margin-bottom: 0.4em;
+}
+
+.triad__characters {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.triad__characters--on {
+    color: #d62828;
+}
+
+.triad__characters--off {
+    color: black;
+}
+
+.triad__pinyin {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    color: var(--darkGrey);
+}
+
+.triad__english {
+    margin-left: 5px;
+    font-size: 0.8em;
+    color: var(--darkGrey);
+}
+
+.triad__flex {
+    flex: 1;
+    text-align: center;
+}

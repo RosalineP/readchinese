@@ -1,0 +1,44 @@
+/* --------------------------------------- */
+/* Variables */
+/* --------------------------------------- */
+
+:root {
+  --font-fallback: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-sans;
+  --font-body: Inter,var(--font-fallback);
+
+  --lightBlue: #013A63;
+  --blue: #012A4A;
+  --darkBlue: #01223B;
+  --yellow: #fdc500;
+  --grey: #A9AAAE;
+  --darkGrey: #565961;
+}
+
+/* --------------------------------------- */
+/* App */
+/* --------------------------------------- */
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+/* --------------------------------------- */
+/* Util/Misc */
+/* --------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.invisible {
+  visibility: hidden;
+}
