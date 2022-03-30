@@ -4,8 +4,6 @@ import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 import classNames from 'classnames';
 
-import { twentiesThirties } from '../texts/TwentiesThirties';
-
 interface HeaderProps {
     name: string;
     link: string;
@@ -59,10 +57,13 @@ const Character: FC<CharacterProps> = memo(({ char }) => {
     );
 });
 
-export const Text = memo(() => {
-    const [showHelp, setShowHelp] = useState<boolean>(false);
+interface Props {
+    text: { name: string; quizlet: string; lines: string[][] };
+}
 
-    const { name, quizlet, lines } = twentiesThirties;
+export const Text: FC<Props> = memo(({ text }) => {
+    const [showHelp, setShowHelp] = useState<boolean>(false);
+    const { name, quizlet, lines } = text;
     const LIMIT = 25;
 
     return (
@@ -71,6 +72,7 @@ export const Text = memo(() => {
 
             <div className="text__body">
                 {lines.map((triad, i) => {
+                    // Create arrays of length LIMIT for evenly columned tables
                     const characters = triad[0].split('');
                     const charactersAddition = [...Array(LIMIT - characters.length)];
                     const pinyin = triad[1].split(' ');

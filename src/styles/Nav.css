@@ -35,4 +35,9 @@
     background-color: var(--darkBlue);
     border-left: 0.5em solid var(--yellow);
     padding-left: 1.5em;
+    color: white !important;
+}
+
+.nav__title:hover {
+    color: var(--lightGrey);
 }

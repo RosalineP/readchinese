@@ -1,15 +1,30 @@
-import React, { FC, memo } from 'react';
+import React, { Dispatch, FC, memo, SetStateAction } from 'react';
+import classNames from 'classnames';
 
-export const Nav: FC = memo(() => {
-    const TITLES = ['title1', 'title2', 'title3'];
+interface Props {
+    textNames: string[];
+    chosenText: string;
+    setChosenText: Dispatch<SetStateAction<string>>;
+}
+
+export const Nav: FC<Props> = memo(props => {
+    const { textNames, chosenText, setChosenText } = props;
 
     return (
         <div className="nav">
             <div className="nav__header"> 读 </div>
 
-            <div className="nav__title"> {TITLES[0]} </div>
-            <div className="nav__title nav__title--selected"> {TITLES[1]} </div>
-            <div className="nav__title"> {TITLES[2]} </div>
+            {textNames.map((textName, i) => {
+                return (
+                    <div
+                        className={classNames('nav__title', { 'nav__title--selected': textName === chosenText })}
+                        key={i}
+                        onClick={() => setChosenText(textName)}
+                    >
+                        {textName}
+                    </div>
+                );
+            })}
         </div>
     );
 });
