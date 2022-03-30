@@ -5,10 +5,10 @@ import './styles/Text.css';
 import './styles/App.css';
 import { Nav } from './components/Nav';
 import { Text } from './components/Text';
-import { twentiesThirties } from './texts';
+import {girlsRiseUp, twentiesThirties} from './texts';
 
-const TEXT_MAP = { [twentiesThirties.name]: twentiesThirties };
-const TEXTS = [twentiesThirties];
+const TEXT_MAP = { [twentiesThirties.name]: twentiesThirties, [girlsRiseUp.name]: girlsRiseUp };
+const TEXTS = [twentiesThirties, girlsRiseUp];
 
 const App: FC = memo(() => {
     const [chosenText, setChosenText] = useState<string>(TEXTS[0].name);
