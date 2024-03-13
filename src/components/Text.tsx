@@ -78,6 +78,10 @@ export const Text: FC<Props> = memo(({ text }) => {
                     const pinyin = triad[1].split(' ');
                     const pinyinAddition = [...Array(LIMIT - pinyin.length)];
 
+                    if (characters.length === 0) {
+                        return <div className="vertical_spacer"></div>
+                    }
+
                     return (
                         <div key={i} className="text__body__triad">
                             <div className="triad__characters">

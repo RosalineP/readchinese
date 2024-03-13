@@ -1,0 +1,2 @@
+- Maybe there's a better way to lay out the characters gracefully on resize?
+- Remove the quizlet button
